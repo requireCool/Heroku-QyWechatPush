@@ -6,9 +6,9 @@ if (isset($_GET['type'])) {
 }
 
 //此处配置你的信息
-$corpid = "";
-$secret = "";
-$agentid = 1000002;
+$corpid = "ww6e0098f72c4410ea";
+$secret = "_MQLz8auAxk47KPy-sieFRyOhgOVeBsvdyHP4khLutU";
+$agentid = 1000003;
 
 //获取access_token
 $url = 'https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=' . $corpid . '&corpsecret=' . $secret;
