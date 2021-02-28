@@ -38,7 +38,7 @@ $data  = $data[0];
 // $data['date'] = date("Y-m-d");
 
 //排版文字
-$content = $data['location'] . " - " . $data['temp'] . "\n" . " " . "\n更新时间 " . $data['date'] . "\n" . " " . "\n" . $data['today'] . "\n" . " " . "\n" . $data['shidu'] . "\n" . " " . "\n" . $data['wind'] . "\n" . " " . "\n空气质量" . $data['kongqi'];
+$content = $data['location'] . " - " . $data['temp'] . "\n" . " " . "更新时间 " . $data['date'] . "\n" . " " . $data['today'] . "\n" . " " . $data['shidu'] . "\n" . " " . $data['wind'] . "\n" . " " . "空气质量" . $data['kongqi'];
 
 
 
