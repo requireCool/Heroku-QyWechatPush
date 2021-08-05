@@ -1,6 +1,6 @@
 {
-  "name": "Offer an api to QyWechatLiteAppNotice",
-  "description": "A barebones PHP app that makes use of the Silex web framework",
+  "name": "QyWechatPush",
+  "description": "Offer an api to push message to your wechat.",
   "repository": "https://github.com/requireCool/Heroku-QyWechatPush",
   "env": {
     "CorpID": {
