@@ -5,6 +5,10 @@ if (isset($_GET['type'])) {
     include('./' . $file . '.php');
 }
 
+$CorpID = getenv('CorpID');
+$Secret = getenv('Secret');
+$AgentID = getenv('AgentID');
+
 //此处配置你的信息
 $corpid = "$CorpID";
 $secret = "$Secret";
