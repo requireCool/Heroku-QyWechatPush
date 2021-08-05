@@ -16,7 +16,7 @@
 
 是一款类似于server酱Turbo版的一款「程序员」和「服务器」之间的通信软件
 
-注：不需要使用到企业微信，只需要获取 `cropid` `secret` `agentid`三个值即可，获取方式在下面
+注：不需要使用到企业微信，只需要获取 `cropid` `secret` `agentid`三个值即可，获取方式在[这里](https://github.com/requireCool/Heroku-QyWechatPush#%E5%8F%82%E6%95%B0%E8%8E%B7%E5%8F%96)
 
 ### WxWork_Push使用方式
 
