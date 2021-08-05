@@ -5,11 +5,12 @@ if (isset($_GET['type'])) {
     include('./' . $file . '.php');
 }
 
+//从环境变量中读取信息 √
 $CorpID = getenv('CorpID');
 $Secret = getenv('Secret');
 $AgentID = getenv('AgentID');
 
-//此处配置你的信息
+//此处配置你的信息 ×
 $corpid = "$CorpID";
 $secret = "$Secret";
 $agentid = $AgentID;
