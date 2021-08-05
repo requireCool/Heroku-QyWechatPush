@@ -1,6 +1,19 @@
 {
-  "name": "Start on Heroku: PHP",
+  "name": "Offer an api to QyWechatLiteAppNotice",
   "description": "A barebones PHP app that makes use of the Silex web framework",
-  "repository": "https://github.com/heroku/php-getting-started",
-  "addons": []
+  "repository": "https://github.com/requireCool/Heroku-QyWechatPush",
+  "env": {
+    "CorpID": {
+      "description": "Your corpid.",
+      "value": ""
+    },
+    "Secret": {
+      "description": "Your app secret.",
+      "value": ""
+    },
+    "AgentID": {
+    "description": "Your app agentid.",
+    "value": ""
+    }
+  }
 }
